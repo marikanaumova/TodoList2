@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>TODO List</h1>
+    </div>
+    <div class="content">
+        <form class="input-group">
+            <input type="text" id="input" placeholder="New ToDo" class="input">
+            <button id="btn" class="btn" type="submit">Add</button>
+        </form>
+        <div class="list">
+            <ul class="list-ul">
+            </ul>
+            <div class="list-footer">
+                <div class="count">
+                    <span><span id="count"></span> Items</span>
+                </div>
+                <button id="btn-clear" class="btn-clear">Clear completed</button>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
