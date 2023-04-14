@@ -36,7 +36,6 @@ function getCheckboxes () {
                 }
                 return task
             })
-            console.log(tasks)
         })
     })
 }
@@ -77,4 +76,3 @@ const handleClear = () => {
 btn.addEventListener('click', (e) => handleClick(e) )
 input.addEventListener('change', handleChange)
 clearBtn.addEventListener('click', handleClear)
-
